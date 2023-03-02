@@ -9,18 +9,13 @@ fortunex() {
     [ $? -ne 0 ] && fortunex
 }
 
-while [ :: ]  
-	do
-	echo "<html>" > $TMP
-	echo "<head>" >> $TMP
-	echo "<meta charset=\"utf-8\">" >> $TMP
-	echo "<meta http-equiv=\"refresh\" content=\"5\" >" >> $TMP
-	echo "</head>" >> $TMP
-	echo "<title>have a fortune cookie ...</title>" >> $TMP
-	echo "<pre>" >> $TMP
-	fortunex 
-	echo "</pre>" >> $TMP
-	echo "</html>" >> $TMP
-	cp -a $TMP $INDEX
-	sleep 4.5 
-done
+echo "<html>" > $TMP
+echo "<head>" >> $TMP
+echo "<meta charset=\"utf-8\">" >> $TMP
+echo "</head>" >> $TMP
+echo "<title>have a fortune cookie ...</title>" >> $TMP
+echo "<pre>" >> $TMP
+fortunex 
+echo "</pre>" >> $TMP
+echo "</html>" >> $TMP
+cp -a $TMP $INDEX
