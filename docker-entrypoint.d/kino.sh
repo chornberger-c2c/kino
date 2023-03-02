@@ -9,19 +9,19 @@ fortunex() {
 html_front() {
   INDEX=/usr/local/apache2/htdocs/index.html
   cat <<EOF > "$INDEX"
-    <html>
-    <head>
-    <meta charset="utf-8">
-    </head>
-    <title>have a fortune cookie ...</title>
-    <pre>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<title>have a fortune cookie ...</title>
+<pre>
 EOF
 }
 
 html_end() {
   cat <<EOF >> "$INDEX"
-  </pre>
-  </html>
+</pre>
+</html>
 EOF
 }
 
