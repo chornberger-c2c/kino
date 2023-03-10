@@ -1,1 +1,1 @@
-# Example for a flexible Docker entrypoint
+# Example of a flexible Docker entrypoint
