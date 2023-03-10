@@ -13,7 +13,7 @@ html_front() {
 <head>
 <meta charset="utf-8">
 </head>
-<title>have a fortune cookie ...</title>
+<title>Quote</title>
 <pre>
 EOF
 }
