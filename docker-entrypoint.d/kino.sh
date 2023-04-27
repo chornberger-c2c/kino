@@ -3,12 +3,11 @@
 
 write_to_index() {
   INDEX=/usr/local/apache2/htdocs/index.html
-  tee -a "$INDEX"
-}
-
-fortunex() {
-  /usr/games/fortune -s | /usr/games/cowsay -s -f $(shuf -n 1 -e $(/usr/games/cowsay -l))
-  [ $? -ne 0 ] && fortunex
+  if [ $(grep -q "It.works" "$INDEX") ]; then
+    cat > "$INDEX"
+  else
+    cat >> "$INDEX"
+  fi
 }
 
 html_front() {
@@ -20,6 +19,11 @@ html_front() {
 <title>Quote</title>
 <pre>
 EOF
+}
+
+fortunex() {
+  /usr/games/fortune -s | /usr/games/cowsay -s -f $(shuf -n 1 -e $(/usr/games/cowsay -l))
+  [ $? -ne 0 ] && fortunex
 }
 
 html_end() {
