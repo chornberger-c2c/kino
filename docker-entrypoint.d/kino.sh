@@ -3,11 +3,7 @@
 
 write_to_index() {
   INDEX=/usr/local/apache2/htdocs/index.html
-  if [ $(grep -q "It.works" "$INDEX") ]; then
-    cat > "$INDEX"
-  else
-    cat >> "$INDEX"
-  fi
+  cat >> "$INDEX"
 }
 
 html_front() {
