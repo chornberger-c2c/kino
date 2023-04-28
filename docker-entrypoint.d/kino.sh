@@ -33,6 +33,7 @@ main() {
   html_front | write_to_index
   fortunex | write_to_index
   html_end | write_to_index
+  exit 0
 }
 
 main "$@" || exit 1
