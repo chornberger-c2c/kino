@@ -12,5 +12,5 @@ jobs:
     steps:
       - uses: "GoogleCloudPlatform/release-please-action@v2"
         with:
-          release-type: simple
+          release-type: "simple"
           bump-minor-pre-major: true
