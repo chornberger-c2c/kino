@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/chornberger-c2c/kino/compare/v0.1.0...v0.2.0) (2023-05-06)
+
+
+### Features
+
+* **docs:** update README.md ([a63f783](https://www.github.com/chornberger-c2c/kino/commit/a63f7832f88e5c1dda815da727a97b20f4bcca75))
+
 ## 0.1.0 (2023-05-05)
 
 
