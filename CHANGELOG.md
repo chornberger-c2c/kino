@@ -1,5 +1,19 @@
 # Changelog
 
+### [0.2.1](https://www.github.com/chornberger-c2c/kino/compare/v0.2.0...v0.2.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* exit code test ([437c83a](https://www.github.com/chornberger-c2c/kino/commit/437c83a7c9af0acfc8d26b1bd55394ae60183037))
+* gh action ([d79fa6f](https://www.github.com/chornberger-c2c/kino/commit/d79fa6f10746dbc64e891f6c37f5c82ebfdc7a8e))
+* ignore check ([d7a2b7c](https://www.github.com/chornberger-c2c/kino/commit/d7a2b7c51444513437f0dffb4aeb6604b15f6abe))
+* ignore checks ([32be710](https://www.github.com/chornberger-c2c/kino/commit/32be710c778b20fa4304cdc08be7416d307a5cc5))
+* linting ([b75f9a2](https://www.github.com/chornberger-c2c/kino/commit/b75f9a2f505ae7a7a2f6f0a96191e0937a501dd1))
+* quotes ([d8a329a](https://www.github.com/chornberger-c2c/kino/commit/d8a329a3df6019a9e3238d48560553306c4f7cc8))
+* quoting ([1637a7b](https://www.github.com/chornberger-c2c/kino/commit/1637a7b4dfb2defaaeb8a4f411676d78675219fc))
+* shellcheck ([2a53f7b](https://www.github.com/chornberger-c2c/kino/commit/2a53f7b4a11c8ee516912438492d8fe9916e38db))
+
 ## [0.2.0](https://www.github.com/chornberger-c2c/kino/compare/v0.1.0...v0.2.0) (2023-05-06)
 
 
