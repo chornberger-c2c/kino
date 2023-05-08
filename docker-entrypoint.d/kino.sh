@@ -18,9 +18,8 @@ EOF
 }
 
 fortunex() {
-  if [ ! "$(/usr/games/fortune -s | /usr/games/cowsay -s -f "$(shuf -n 1 -e "$(/usr/games/cowsay -l)")")" ]; then
-    fortunex
-  fi
+  /usr/games/fortune -s | /usr/games/cowsay -s -f "$(shuf -n 1 -e "$(/usr/games/cowsay -l)")"
+  [ $? -ne 0 ] && fortunex
 }
 
 html_end() {
