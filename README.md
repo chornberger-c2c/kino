@@ -1,3 +1,5 @@
+[![Shellcheck](https://github.com/chornberger-c2c/kino/actions/workflows/shellcheck.yaml/badge.svg)](https://github.com/chornberger-c2c/kino/actions/workflows/shellcheck.yaml)
+
 # Show quotes on my website
 
 This code runs on Google Cloud Run, and shows `fortune` cookies in a `cowsay` way.
