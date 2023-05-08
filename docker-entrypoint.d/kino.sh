@@ -18,7 +18,7 @@ EOF
 }
 
 fortunex() {
-  /usr/games/fortune -s | /usr/games/cowsay -s -f "$(shuf -n 1 -e \"$(/usr/games/cowsay -l)\")"
+  /usr/games/fortune -s | /usr/games/cowsay -s -f "$(shuf -n 1 -e "$(/usr/games/cowsay -l)")"
   [ $? -ne 0 ] && fortunex
 }
 
